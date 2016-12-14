@@ -1,0 +1,33 @@
+.bg-dark-primary-color {background-color: var(--dark-blue)}
+.bg-darkest-primary-color {background-color: var(--darkest-blue)}
+.bg-dark-primary-color-80 {background-color: var(--darkest-blue-80)}
+
+.text-on-primary-color {color: var(--white-90)}
+.accent-color { color: var(--light-blue)}
+.primary-color { color: #9E9595;}
+
+
+.referrals-and-communication {
+  background-color: var(--darkest-blue)
+}
+.preliminary-examination {
+  background-color: color(var(--darkest-blue) lightness(15%))
+}
+.investigation {
+  background-color: color(var(--darkest-blue) lightness(20%))
+}
+.arrest-warrant-and-summons {
+  background-color: color(var(--darkest-blue) lightness(30%))
+}
+.confirmation-of-charges {
+  background-color: color(var(--darkest-blue) lightness(40%))
+}
+.atrocity-crimes {
+  background-color: color(var(--darkest-blue) lightness(50%))
+}
+.trial-and-appeal {
+  background-color: color(var(--darkest-blue) lightness(60%))
+}
+.sentencing-and-reparations {
+  background-color: color(var(--darkest-blue) lightness(70%))
+}

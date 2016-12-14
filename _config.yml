@@ -1,14 +1,14 @@
 # jekyll-seo-tag
-title: "Lean Jekyll"
-description: "A starter for using jekyll"
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+title: "How the ICC Works"
+description: "The ICC is a court of last resort. It has to adhere to a great number of rules to determine where and when it can operate."
+url: "http://how-the-icc-works.aba-icc.org" # the base hostname & protocol for your site
 author: []
 twitter:
   username: budparr
 facebook:
-  app_id: 
-  publisher: 
-  admins: 
+  app_id:
+  publisher:
+  admins:
 logo: /assets/images/jekyll-white.svg
 google_site_verification:
 github:
@@ -28,9 +28,7 @@ incremental: true
 
 # Settings
 production: false
-bust_css_cache: false
 full_rebuild: true
-timezone: Etc/Zulu
 compress_html:
   ignore:
     envs: [development]
@@ -38,11 +36,12 @@ compress_html:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-plugins_dir:  ./_app/_plugins
-layouts_dir:  ./_app/_layouts
-includes_dir: ./_app/_includes
+destination: public
+source: src
+plugins_dir:  /_app/_plugins
+layouts_dir:  /_app/_layouts
+includes_dir: /_app/_includes
 
-permalink: pretty
 
 # CONTENT
 exclude:
@@ -53,35 +52,50 @@ exclude:
   - Gemfile.lock
   - CNAME
   - node_modules
-  - sass
-  - gulpfile.js
   - package.json
-  - postcss.config.js
+
+processes:
+  - ''
+  - jurisdictional-triggers
+  - referrals-and-communication
+  - preliminary-examination
+  - investigation
+  - arrest-warrant-and-summons
+  - confirmation-of-charges
+  - trial-and-appeal
+  - sentencing-and-reparations
+
 
 collections:
-  landing_pages:
+  referrals-and-communication:
     output: true
     permalink: '/:path/'
+  preliminary-examination:
+    output: true
+    permalink: '/:path/'
+  investigation:
+    output: true
+    permalink: '/:path/'
+  arrest-warrant-and-summons:
+    output: true
+    permalink: '/:path/'
+    color:
+  confirmation-of-charges:
+    output: true
+    permalink: '/:path/'
+  trial-and-appeal:
+    output: true
+    permalink: '/:path/'
+  sentencing-and-reparations:
+    output: true
+    permalink: '/:path/'
+  atrocity-crimes:
+    output: true
+    permalink: '/:path/'
+
 
 defaults:
   - scope:
       path: ''
     values:
       layout: page-single
-  - scope:
-      path: ''
-      type: 'landing_pages'
-    values:
-      layout: page-single
-  - scope:
-      path: ''
-      type: pages
-      permalink: /:basename/
-    values:
-      layout: page-single
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: page-single
-      schema: BlogPosting

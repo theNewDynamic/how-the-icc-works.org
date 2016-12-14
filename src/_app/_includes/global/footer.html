@@ -1,0 +1,27 @@
+<footer class="bg-darkest-primary-color pa4" role="contentinfo">
+
+
+
+  <a href="http://www.americanbar.org/">
+    <img src="/uploads/logo-aba.png" alt="ABA Logo" class="h2 fixed bottom-2 left-1">
+  </a>
+
+  <div class="ml6">
+    {% for object in site.data.links-footer %}
+    <a href="{{ object.url }}" title="Language" class="link white dim fw2 f6 mr4">{{ object.title }}</a>
+    {% endfor  %}
+  </div>
+
+</footer>
+
+
+<!--
+
+<footer class="bg-near-black white-80 pv5 pv6-l ph4">
+  <p class="f6">
+    <span class="dib mr4 mr5-ns">©2048 Your Company LLC, Inc.</span>
+    <a class="link white-80 hover-light-purple" href="/terms">Terms</a> /
+    <a class="link white-80 hover-gold" href="/privacy"> Privacy </a> /
+    <a class="link white-80 hover-green" href="#">hi@yourcompany.com </a>
+  </p>
+</footer> -->

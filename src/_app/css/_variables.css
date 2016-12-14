@@ -1,0 +1,26 @@
+:root {
+  /* ABA colors */
+  --darkest-blue: #041621;
+  --dark-blue:  #004b7b;
+  --light-blue: #2483C4;
+  --darkest-blue-80: rgba(24,63, 99, 0.8);
+}
+
+/*
+--primary-color-dark:           var(--palette-Blue-700);
+--primary-color:                var(--palette-Blue-500);
+--primary-color-light:          var(--palette-Blue-100);
+--text-primary-color:           var(--palette-White-500);
+--accent-color:                 var(--palette-Pink-A200);
+--light-accent-color:           var(--palette-Pink-A100);
+--dark-accent-color:            var(--palette-Pink-A400);
+--primary-text-color:           var(--palette-Grey-900);
+--secondary-text-color:         var(--palette-Grey-600);
+--disabled-text-color:          var(--palette-Grey-400);
+--divider-color:                var(--palette-Grey-400);
+--warn-color
+
+References:
+https://material.angularjs.org/latest/Theming/01_introduction
+
+https://www.polymer-project.org/1.0/*/
