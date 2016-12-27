@@ -7,46 +7,56 @@ schema: 'Article'
 {% assign sections = site.collections | where: 'primary_section', true  %}
 {% assign sections = sections | sort: 'order' %}
 
-<div class="cf bg-gray min-vh-100 mx-auto bg-near-white sm-col-12 lg-col-6  p2 lg-p3">
+
 
   {% for section in sections %}
     {% assign section_name = section.label %}
+    {% assign section_documents= site.[section_name] %}
+    {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
+    {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
+
+
     <section id="{{ section_name }}" class="{{ section_name }}">
 
         {% if section.category %}
-          <h1 class="bg-dark-primary-color white pa4">
+          <h1 class="f1 ma0 bg-dark-primary-color white pa4">
               {{ section.category }}
           </h1>
         {% endif %}
 
-        <h2>
+      <div class="pa4 flex flex-wrap-l" data="section">
+
+        <h2 class="f2 ma0 pb4 w-100">
           {{ section.name }}
         </h2>
 
-      {% assign section_documents= site.[section_name] %}
-      {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
-      {% for doc in section_introduction %}
-        <h4>
-          {{ doc.title }}
-        </h4>
-        {{ doc.content }}
-      {% endfor %}
+        <div class="w-50-l" data="section-introduction">
+
+          {% for doc in section_introduction %}
+            <h3 class="f3">
+              {{ doc.title }}
+            </h3>
+            <div class="pr4">
+              {{ doc.content }}
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="w-50-l bg-white-90 black pa4" data="section-body">
+          {% for doc in section_body %}
+            <h4 class="f4">
+              {{ doc.title }}
+            </h4>
+            {{ doc.content }}
+          {% endfor %}
+
+        </div>
 
 
-      {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
-      {% for doc in section_body %}
-        <h4>
-          {{ doc.title }}
-        </h4>
-        {{ doc.content }}
-      {% endfor %}
+
+      </div> <!-- //END section -->
 
 
     </section>
 
   {% endfor %}
-
-
-
-
-</div>

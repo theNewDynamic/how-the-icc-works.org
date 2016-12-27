@@ -8,26 +8,34 @@
 
 
 .referrals-and-communication {
-  background-color: var(--darkest-blue)
+  background-color: var(--darkest-blue);
+  color: white;
 }
 .preliminary-examination {
-  background-color: color(var(--darkest-blue) lightness(15%))
+  background-color: color(var(--darkest-blue) lightness(15%));
+  color: white;
 }
 .investigation {
-  background-color: color(var(--darkest-blue) lightness(20%))
+  background-color: color(var(--darkest-blue) lightness(20%));
+  color: white;
 }
 .arrest-warrant-and-summons {
-  background-color: color(var(--darkest-blue) lightness(30%))
+  background-color: color(var(--darkest-blue) lightness(30%));
+  color: white;
 }
 .confirmation-of-charges {
-  background-color: color(var(--darkest-blue) lightness(40%))
+  background-color: color(var(--darkest-blue) lightness(40%));
+  color: white;
 }
 .atrocity-crimes {
-  background-color: color(var(--darkest-blue) lightness(50%))
+  background-color: color(var(--darkest-blue) lightness(50%));
+  color: white;
 }
 .trial-and-appeal {
-  background-color: color(var(--darkest-blue) lightness(60%))
+  background-color: color(var(--darkest-blue) lightness(60%));
+  color: white;
 }
 .sentencing-and-reparations {
-  background-color: color(var(--darkest-blue) lightness(70%))
+  background-color: color(var(--darkest-blue) lightness(70%));
+  color: white;
 }

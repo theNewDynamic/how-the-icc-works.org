@@ -3,5 +3,4 @@
 @import '_variables';
 
 /* local styles */
-.bud {color:var(--dark-primary-color)}
 .flex-grow {flex-grow:1}
