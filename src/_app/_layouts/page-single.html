@@ -14,17 +14,18 @@ schema: 'Article'
     {% assign section_documents= site.[section_name] %}
     {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
     {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
-
-
+    {% unless forloop.index0 == 0 %}
+      {% assign section_body_classes = 'bg-white black pv3 ph3 pv3-ns ph4-ns ba b--black-10 mb2' %}
+    {% endunless %}
     <section id="{{ section_name }}" class="{{ section_name }}">
 
-        {% if section.category %}
-          <h1 class="f1 ma0 bg-dark-primary-color white pa4">
-              {{ section.category }}
-          </h1>
-        {% endif %}
+      {% if section.category %}
+        <h1 class="f2 f1-ns ma0 bg-dark-primary-color white pa3 pa4-ns">
+            {{ section.category }}
+        </h1>
+      {% endif %}
 
-      <div class="pa4 flex flex-wrap-l" data="section">
+      <div class="pa3 pa4-ns flex-ns flex-wrap-ns" data="section">
 
         <h2 class="f2 ma0 pb4 w-100">
           {{ section.name }}
@@ -42,12 +43,15 @@ schema: 'Article'
           {% endfor %}
         </div>
 
-        <div class="w-50-l bg-white-90 black pa4" data="section-body">
+        <div class="w-50-l" data="section-body">
+
           {% for doc in section_body %}
-            <h4 class="f4">
-              {{ doc.title }}
-            </h4>
-            {{ doc.content }}
+            <div class="{{ section_body_classes }}">
+              <h4 class="f3">
+                {{ doc.title }}
+              </h4>
+              {{ doc.content }}
+            </div>
           {% endfor %}
 
         </div>
