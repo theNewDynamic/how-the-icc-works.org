@@ -1,6 +1,6 @@
 ---
 title:
 published: true
-document:
+investigation:
 ---
 some test copy
