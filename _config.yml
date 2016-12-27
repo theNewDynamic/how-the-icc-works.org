@@ -36,6 +36,7 @@ compress_html:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+source: src
 plugins_dir:  /_app/_plugins
 layouts_dir:  /_app/_layouts
 includes_dir: /_app/_includes
@@ -51,7 +52,6 @@ exclude:
   - CNAME
   - node_modules
   - package.json
-  - webpack
 
 processes:
   - ''
