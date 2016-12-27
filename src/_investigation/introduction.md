@@ -1,6 +1,7 @@
 ---
 title: Investigation Process
 published: true
+articles:
 sort_order: 1
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Jurisdictional Triggers
 published: true
+articles:
 sort_order: 1
 permalink: /referrals-and-communication/
 ---

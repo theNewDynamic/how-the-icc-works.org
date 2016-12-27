@@ -1,6 +1,7 @@
 ---
 title: "Victims' Role in Proceedings"
 published: true
+articles:
 sort_order: 4
 ---
 

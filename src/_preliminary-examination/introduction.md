@@ -1,5 +1,7 @@
 ---
 title: Preliminary Examination
+published: true
+articles:
 sort_order: 1
 permalink: /preliminary-examination/
 ---

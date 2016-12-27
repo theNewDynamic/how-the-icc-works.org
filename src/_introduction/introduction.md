@@ -1,6 +1,7 @@
 ---
 title: 'Introduction: Atrocity Crimes'
 published: true
+articles:
 sort_order: 1
 permalink: /introduction/
 ---

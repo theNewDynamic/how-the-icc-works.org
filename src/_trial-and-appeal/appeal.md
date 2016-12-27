@@ -1,6 +1,7 @@
 ---
 title: Appeal
 published: true
+articles:
 sort_order: 3
 ---
 

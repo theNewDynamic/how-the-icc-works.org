@@ -1,6 +1,7 @@
 ---
 title: War Crimes
 published: true
+articles:
 sort_order: 3
 ---
 

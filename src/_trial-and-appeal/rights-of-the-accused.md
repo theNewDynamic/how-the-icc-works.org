@@ -1,6 +1,7 @@
 ---
 title: Rights of the Accused
 published: true
+articles:
 sort_order: 2
 ---
 

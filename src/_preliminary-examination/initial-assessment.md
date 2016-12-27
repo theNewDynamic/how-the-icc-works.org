@@ -1,7 +1,8 @@
 ---
 title: Initial Assessment
-sort_order: 2
 published: true
+articles:
+sort_order: 2
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: Cooperation and Assistance
 published: true
+articles:
 sort_order: 2
 ---
 

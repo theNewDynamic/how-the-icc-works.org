@@ -1,6 +1,7 @@
 ---
 title: Investigation Main page NOTUSING
 published: false
+articles:
 sort_order: 1
 permalink: /investigation/
 ---

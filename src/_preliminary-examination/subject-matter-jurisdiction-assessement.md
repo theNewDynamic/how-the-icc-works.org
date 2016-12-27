@@ -1,8 +1,8 @@
 ---
 title: Subject Matter Jurisdiction
-sort_order: 4
 published: true
-phase: 'Situations & Cases'
+articles:
+sort_order: 4
 ---
 
 

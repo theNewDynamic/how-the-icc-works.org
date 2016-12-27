@@ -1,6 +1,7 @@
 ---
 title: 'Admissibility Assessment: Gravity'
 published: true
+articles:
 sort_order: 7
 ---
 

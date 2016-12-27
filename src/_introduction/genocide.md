@@ -1,6 +1,7 @@
 ---
 title: Genocide
 published: true
+articles:
 sort_order: 4
 ---
 

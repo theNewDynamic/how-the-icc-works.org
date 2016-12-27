@@ -1,6 +1,7 @@
 ---
 title: Temporal Jurisdiction
 published: true
+articles:
 sort_order: 3
 ---
 

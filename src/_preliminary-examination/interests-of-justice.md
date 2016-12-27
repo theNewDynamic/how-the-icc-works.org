@@ -1,7 +1,8 @@
 ---
 title: Interests of Justice Assessment
-sort_order: 8
 published: true
+articles:
+sort_order: 8
 ---
 
 

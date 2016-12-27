@@ -1,6 +1,7 @@
 ---
 title: Sentencing
 published: true
+articles:
 sort_order: 1
 permalink: /sentencing-and-reparations/
 ---
