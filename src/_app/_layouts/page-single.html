@@ -37,7 +37,7 @@ schema: 'Article'
             <h3 class="f3">
               {{ doc.title }}
             </h3>
-            <div class="pr4">
+            <div class="pr4-ns lh-copy ">
               {{ doc.content }}
             </div>
           {% endfor %}
@@ -50,7 +50,9 @@ schema: 'Article'
               <h4 class="f3">
                 {{ doc.title }}
               </h4>
-              {{ doc.content }}
+              <div class="lh-copy dark-gray">
+                {{ doc.content }}
+              </div>
             </div>
           {% endfor %}
 
