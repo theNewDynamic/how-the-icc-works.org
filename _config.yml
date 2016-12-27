@@ -29,6 +29,7 @@ incremental: true
 # Settings
 production: false
 full_rebuild: true
+incremental: false
 compress_html:
   ignore:
     envs: [development]
@@ -79,12 +80,14 @@ collections:
     name: 'Referrals and Communications'
     primary_section: true
     order: 01
+    category: 'Referral to the ICC'
   preliminary-examination:
     output: true
     permalink: '/:collection/:path/'
     name: 'Preliminary Examination'
     primary_section: true
     order: 02
+    category: 'Action by the ICC'
   investigation:
     output: true
     permalink: '/:collection/:path/'
