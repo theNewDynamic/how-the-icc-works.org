@@ -16,6 +16,9 @@ schema: 'Article'
     {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
     {% unless forloop.index0 == 0 %}
       {% assign section_body_classes = 'bg-white black pv3 ph3 pv3-ns ph4-ns ba b--black-10 mb2' %}
+      {% assign section_heading_classes = 'ttu silver mb0' %}
+      {% else  %}
+        {% assign section_heading_classes = 'dn' %}
     {% endunless %}
     <section id="{{ section_name }}" class="{{ section_name }}">
 
@@ -37,7 +40,7 @@ schema: 'Article'
             <h3 class="f3">
               {{ doc.title }}
             </h3>
-            <div class="pr4-ns pb4 lh-copy ">
+            <div class="pr5-ns pb4 lh-copy ">
               {{ doc.content }}
             </div>
           {% endfor %}
@@ -47,7 +50,7 @@ schema: 'Article'
 
           {% for doc in section_body %}
             <div class="{{ section_body_classes }}">
-              <h6 class="ttu silver mb0">{{ section.name }}</h6>
+              <h6 class="{{ section_heading_classes }}">{{ section.name }}</h6>
               <h4 class="f3 mt3 mb0">
                 {{ doc.title }}
               </h4>

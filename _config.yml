@@ -37,7 +37,6 @@ compress_html:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-destination: public
 source: src
 plugins_dir:  /_app/_plugins
 layouts_dir:  /_app/_layouts
@@ -68,6 +67,9 @@ processes:
 
 
 collections:
+  articles:
+    output: true
+    permalink: '/:path/'
   introduction:
     output: true
     permalink: '/:collection/:path/'
