@@ -1,7 +1,6 @@
 ---
 title: 'Admissibility Assessment: Gravity'
 published: true
-process: preliminary-examination
 sort_order: 7
 ---
 

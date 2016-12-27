@@ -1,7 +1,6 @@
 ---
 title: "Victims' Role in Proceedings"
 published: true
-process: trial-and-appeal
 sort_order: 4
 ---
 

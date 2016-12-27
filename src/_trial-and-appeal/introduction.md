@@ -1,8 +1,8 @@
 ---
 title: Trial
 published: true
-process: trial-and-appeal
 sort_order: 1
+permalink: /trial-and-appeal/
 ---
 
 

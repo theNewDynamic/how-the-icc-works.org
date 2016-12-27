@@ -1,6 +1,5 @@
 ---
 title: Interests of Justice Assessment
-process: preliminary-examination
 sort_order: 8
 published: true
 ---

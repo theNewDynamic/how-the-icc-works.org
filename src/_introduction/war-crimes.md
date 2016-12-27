@@ -1,6 +1,5 @@
 ---
 title: War Crimes
-process: atrocity-crimes
 published: true
 sort_order: 2
 ---

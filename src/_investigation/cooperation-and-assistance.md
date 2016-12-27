@@ -1,7 +1,6 @@
 ---
 title: Cooperation and Assistance
 published: true
-process: investigation
 sort_order: 2
 ---
 

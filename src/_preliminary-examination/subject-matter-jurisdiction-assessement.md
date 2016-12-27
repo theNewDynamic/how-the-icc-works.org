@@ -1,6 +1,5 @@
 ---
 title: Subject Matter Jurisdiction
-process: preliminary-examination
 sort_order: 4
 published: true
 phase: 'Situations & Cases'

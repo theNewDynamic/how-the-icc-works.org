@@ -1,9 +1,9 @@
 ---
 title: Confirmation of Charges
-process: confirmation-of-charges
 published: true
 phase:
 sort_order: 1
+permalink: /confirmation-of-charges/
 ---
 
 

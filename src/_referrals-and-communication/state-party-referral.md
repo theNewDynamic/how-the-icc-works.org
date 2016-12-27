@@ -1,7 +1,6 @@
 ---
 title: State Party Referral
 published: true
-process: referrals-and-communication
 sort_order: 2
 ---
 

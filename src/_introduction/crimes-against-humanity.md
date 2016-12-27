@@ -1,6 +1,5 @@
 ---
 title: Crimes Against Humanity
-process: atrocity-crimes
 published: true
 sort_order: 3
 ---

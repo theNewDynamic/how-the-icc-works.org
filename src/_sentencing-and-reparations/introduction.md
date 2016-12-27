@@ -1,9 +1,8 @@
 ---
 title: Sentencing
-process: sentencing-and-reparations
 published: true
 sort_order: 1
-permalink: /how-the-court-works/sentencing-and-reparations/
+permalink: /sentencing-and-reparations/
 ---
 
 

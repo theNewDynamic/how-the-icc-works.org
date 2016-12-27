@@ -1,10 +1,9 @@
 ---
 title: Investigation Main page NOTUSING
-process: investigation
 published: false
 sort_order: 1
+permalink: /investigation/
 ---
-
 
 For any ICC case to start, the first step is to determine whether the ICC has jurisdiction in that country or over a particular individual at all, as just discussed above.
 

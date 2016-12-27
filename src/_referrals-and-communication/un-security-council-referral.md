@@ -1,7 +1,6 @@
 ---
 title: UN Security Council Referral
 published: true
-process: referrals-and-communication
 sort_order: 3
 ---
 

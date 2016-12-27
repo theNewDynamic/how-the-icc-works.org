@@ -1,7 +1,6 @@
 ---
 title: Temporal Jurisdiction
 published: true
-process: preliminary-examination
 sort_order: 3
 ---
 

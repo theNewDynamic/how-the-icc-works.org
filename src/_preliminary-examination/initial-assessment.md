@@ -1,6 +1,5 @@
 ---
 title: Initial Assessment
-process: preliminary-examination
 sort_order: 2
 published: true
 ---
