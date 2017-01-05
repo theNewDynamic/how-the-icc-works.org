@@ -2,6 +2,8 @@
 title: Proprio Motu Investigations
 published: true
 cases:
+ - 2015-afghanistan-preliminary-examination
+ - 2015-iraq-preliminary-examination
 sort_order: 4
 ---
 

@@ -4,22 +4,14 @@
     <h1 class="p-name" itemprop="name headline">
       {{ page.title | markdownify | remove: '<p>' | remove: '</p>'  }}
     </h1>
-
-      {% if page.date %}
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date: "%b %-d, %Y" }}
-        </time>
-      {% endif %}
-
-
   </header>
 
   <div class="e-content lh-copy" itemprop="articleBody">
     {{ content }}
   </div>
 
-    {% if page.include %}
-      {% include {{ page.include }} %}
-    {% endif %}
+  {% if page.include %}
+    {% include {{ page.include }} %}
+  {% endif %}
 
 </article>

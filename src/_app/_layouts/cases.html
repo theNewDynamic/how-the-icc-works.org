@@ -6,10 +6,9 @@ schema: https://schema.org/WebPage
 {% assign slug = page.slug %}
 {% assign data = site.documents | where_exp: 'item', 'item.cases contains slug' %}
 {% assign data_first = data | first %}
-
-
 {% assign list_styles = 'ma0 dib dim pv3 pl3 flex-grow' %}
 {% assign link_styles = 'link white f5' %}
+
 <ul class="list flex-nsT flex-wrapTK ma0 pa0 bg-darkest-primary-color white">
   {% if data.size >= 0 %}
     <li class="{{ list_styles }} pl2 pl4-ns">
@@ -17,20 +16,18 @@ schema: https://schema.org/WebPage
     </li>
   {% endif %}
   {% for doc in data  %}
-  {% assign docCollection = site.collections | where: "label", doc.collection | first %}
-
-
-  <li class="{{ list_styles }} pl2">
-    <a href="#{{ doc.slug }}" class="{{ link_styles }}">
-      {{ doc.title }} ( {{ docCollection.name }} )
-    </a>
-  </li>
-{% endfor  %}
+    {% assign docCollection = site.collections | where: "label", doc.collection | first %}
+    <li class="{{ list_styles }} pl2">
+      <a href="#{{ doc.slug }}" class="{{ link_styles }}">
+        {{ doc.title }} ( {{ docCollection.name }} )
+      </a>
+    </li>
+  {% endfor %}
 </ul>
 
 <main id="content" class="pt4 " role="main">
 
-  <div class="measure-wide center pa4 ">
+  <div class="measure-wide center pv4 ph3 ph0-ns">
     {% include article.html %}
     <a href="/#{{ data_first.collection }}" class="bg-dark-primary-color white pv2 ph3 br2 dim link ba bg dib" onclick="history.go(-1);">
       Return
@@ -58,4 +55,5 @@ schema: https://schema.org/WebPage
       </div>
     {% endfor %}
   </div>
+
 </main>

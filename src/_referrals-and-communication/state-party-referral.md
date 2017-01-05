@@ -2,7 +2,8 @@
 title: State Party Referral
 published: true
 cases:
-  - mali-referral-2000
+  - 2013-comoros-referral
+  - 2012-mali-referral
 sort_order: 2
 ---
 

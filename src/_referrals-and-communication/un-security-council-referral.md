@@ -2,6 +2,8 @@
 title: UN Security Council Referral
 published: true
 cases:
+ - 2005-unsc-resolution-1593
+ - 2011-unsc-resolution-on-libya-referral
 sort_order: 3
 ---
 
