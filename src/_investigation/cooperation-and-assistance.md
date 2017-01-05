@@ -1,7 +1,12 @@
 ---
 title: Cooperation and Assistance
 published: true
-articles:
+cases:
+  - mali-referral-2000
+  - test-article-2
+  - mali-referral-2000
+  - test-article
+
 sort_order: 2
 ---
 

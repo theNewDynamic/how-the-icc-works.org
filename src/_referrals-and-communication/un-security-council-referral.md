@@ -1,7 +1,7 @@
 ---
 title: UN Security Council Referral
 published: true
-articles:
+cases:
 sort_order: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Preliminary Examinations, Admissibility Assessment'
 published: false
-articles:
+cases:
 sort_order: 3
 ---
 

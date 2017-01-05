@@ -67,56 +67,56 @@ processes:
 
 
 collections:
-  articles:
+  cases:
     output: true
-    permalink: '/:path/'
+    permalink: '/:collection/:path/'
   introduction:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Introduction'
     primary_section: true
     order: 00
   referrals-and-communication:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Referrals and Communications'
     primary_section: true
     order: 01
     category: 'Referral to the ICC'
   preliminary-examination:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Preliminary Examination'
     primary_section: true
     order: 02
     category: 'Action by the ICC'
   investigation:
-    output: true
-    permalink: '/:collection/:path/'
+    output: false
+    permalink: '/:collection/#:path/'
     name: 'Investigation'
     primary_section: true
     order: 03
   arrest-warrant-and-summons:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Arrest Warrant & Summons'
     primary_section: true
     color:
     order: 04
   confirmation-of-charges:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Confirmation of Charges'
     primary_section: true
     order: 05
   trial-and-appeal:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Trial & Appeal'
     primary_section: true
     order: 06
   sentencing-and-reparations:
-    output: true
+    output: false
     permalink: '/:collection/:path/'
     name: 'Sentencing & Reparations'
     primary_section: true
@@ -129,41 +129,46 @@ defaults:
       layout: page-single
   - scope:
       path: ''
+      type: 'cases'
+    values:
+      layout: 'cases'
+  - scope:
+      path: ''
       type: 'referrals-and-communication'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'preliminary-examination'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'investigation'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'arrest-warrant-and-summons'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'confirmation-of-charges'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'trial-and-appeal'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'sentencing-and-reparations'
     values:
-      primary_section_: true
+      layout: page-single
   - scope:
       path: ''
       type: 'atrocity-crimes'
     values:
-      primary_section_: true
+      layout: page-single

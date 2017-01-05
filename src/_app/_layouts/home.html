@@ -8,51 +8,52 @@ schema: 'Article'
 {% assign sections = site.collections | where: 'primary_section', true  %}
 {% assign sections = sections | sort: 'order' %}
 
-    {% assign section_name = page.label %}
+<main id="content" role="main">
+
+  {% for section in sections %}
+    {% assign section_name = section.label %}
     {% assign section_documents= site.[section_name] %}
     {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
-    {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" '  %}
-    <!-- | sort: 'sort_order' -->
-    <!-- {% unless forloop.index0 == 0 %}
-      {% assign section_body_classes = 'bg-white black pv3 ph3 pv3-ns ph4-ns ba b--bqlack-10 mb2' %}
+    {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
+    {% unless forloop.index0 == 0 %}
+      {% assign section_body_classes = 'bg-near-white mid-gray pv3 ph3 pv3-ns ph4-ns ba b--black-10 mb2' %}
       {% assign section_heading_classes = 'ttu silver mb0' %}
       {% else  %}
         {% assign section_heading_classes = 'dn' %}
-    {% endunless %} -->
-  <main id="content" role="main">
+    {% endunless %}
 
-    <section id="{{ section_name }}" class="{{ section_name }}">
-
-      {% if page.category %}
-        <h1 class="f2 f1-ns ma0 bg-dark-primary-color white pv4 ph3 ph4-ns">
-            {{ page.category }}
-        </h1>
-      {% endif %}
+    {% if section.category %}
+      <h1 class="f2 f1-ns ma0 bg-dark-primary-colorTK bg-gray white pv3 ph3 ph4-ns">
+          {{ section.category }}
+      </h1>
+    {% endif %}
+    <section id="{{ section_name }}" class="{{ section_name }} waypointItem pt4 min-vh-100">
 
       <div class="pa3 pa4-ns flex-ns flex-wrap-ns" data="section">
 
-        <h2 class="f2 ma0 pv3 w-100">
-          <a href="{{ page.url }}" class="link black dim">
-            {{ page.title }}
-          </a>
-        </h2>
+        <div class="w-50-l bg-redTK">
 
-        <div class="w-50-l" data="section-introduction">
+        <div id="{{ section_name }}_introduction" class="waypointIteminterior {{ section_name }}">
+          <h2 class="f2 ma0 pv3 w-100">
+            {{ section.name }}
+          </h2>
 
           {% for doc in section_introduction %}
             <h3 class="f3">
               {{ doc.title }}
             </h3>
-            <div class="pr5-ns pb4 lh-copy ">
+            <div class="pr5-ns pb4 lh-copy">
               {{ doc.content }}
             </div>
           {% endfor %}
         </div>
 
+        </div>
+
         <div class="w-50-l" data="section-body">
 
           {% for doc in section_body %}
-            <div class="{{ section_body_classes }}">
+            <div id="{{ doc.slug }}" class="{{ section_body_classes }}">
               <h6 class="{{ section_heading_classes }}">{{ section.name }}</h6>
               <h4 class="f3 mt3 mb0">
                 {{ doc.title }}
@@ -64,7 +65,7 @@ schema: 'Article'
               {% if doc.cases %}
                 <div class="mb3">
                   <h5 class="f4 mb3">
-                    Cases
+                    Example Cases
                   </h5>
                   {% for item in doc.cases %}
                     {% assign data = site.cases | where: 'slug', item %}
@@ -82,10 +83,14 @@ schema: 'Article'
 
         </div>
 
+          <!-- <div class="center tc pa4 white">
+            TODO: next section link
+          </div> -->
 
 
       </div> <!-- //END section -->
 
-
     </section>
+
+  {% endfor %}
 </main>

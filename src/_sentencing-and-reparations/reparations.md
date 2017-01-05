@@ -1,7 +1,7 @@
 ---
 title: Reparations
 published: true
-articles:
+cases:
 sort_order: 2
 ---
 

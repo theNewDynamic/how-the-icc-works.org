@@ -1,7 +1,7 @@
 ---
 title: Cooperation and Assistance
 published: true
-articles:
+cases:
 sort_order: 2
 ---
 

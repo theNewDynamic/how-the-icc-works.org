@@ -1,7 +1,7 @@
 ---
 title: Subject Matter Jurisdiction
 published: true
-articles:
+cases:
 sort_order: 4
 ---
 

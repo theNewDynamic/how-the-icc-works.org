@@ -1,7 +1,7 @@
 ---
 title: Proprio Motu Investigations
 published: true
-articles:
+cases:
 sort_order: 4
 ---
 

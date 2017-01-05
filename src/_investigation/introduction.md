@@ -1,7 +1,7 @@
 ---
 title: Investigation Process
 published: true
-articles:
+cases:
 sort_order: 1
 ---
 

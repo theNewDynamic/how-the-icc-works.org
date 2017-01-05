@@ -1,7 +1,7 @@
 ---
 title: Confirmation of Charges
 published: true
-articles:
+cases:
 sort_order: 1
 permalink: /confirmation-of-charges/
 ---

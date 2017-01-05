@@ -1,7 +1,7 @@
 ---
 title: 'Admissibility Assessment: Complementarity'
 published: true
-articles:
+cases:
 sort_order: 6
 ---
 

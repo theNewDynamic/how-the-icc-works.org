@@ -1,0 +1,61 @@
+---
+layout: default
+schema: https://schema.org/WebPage
+---
+{% include global/hero-internal.html %}
+{% assign slug = page.slug %}
+{% assign data = site.documents | where_exp: 'item', 'item.cases contains slug' %}
+{% assign data_first = data | first %}
+
+
+{% assign list_styles = 'ma0 dib dim pv3 pl3 flex-grow' %}
+{% assign link_styles = 'link white f5' %}
+<ul class="list flex-nsT flex-wrapTK ma0 pa0 bg-darkest-primary-color white">
+  {% if data.size >= 0 %}
+    <li class="{{ list_styles }} pl4">
+      Relevant Section{% if data.size >= 2 %}s{% endif  %}:
+    </li>
+  {% endif %}
+  {% for doc in data  %}
+  {% assign docCollection = site.collections | where: "label", doc.collection | first %}
+
+
+  <li class="{{ list_styles }} pl2">
+    <a href="#{{ doc.slug }}" class="{{ link_styles }}">
+      {{ doc.title }} ( {{ docCollection.name }} )
+    </a>
+  </li>
+{% endfor  %}
+</ul>
+
+<main id="content" class="pt4 " role="main">
+
+  <div class="measure-wide center pa4 ">
+    {% include article.html %}
+    <a href="/#{{ data_first.collection }}" class="bg-dark-primary-color white pv2 ph3 br2 dim link ba bg dib" onclick="history.go(-1);">
+      Return
+    </a>
+  </div>
+
+  <div class="mt5 flex-l flex-wrap center bg-dark-primary-color">
+    {% for doc in data  %}
+    {% assign docCollection = site.collections | where: "label", doc.collection | first %}
+      <div id="{{ doc.slug}}" class="mb4 w-100 w-50-l pa3 pa5-l">
+        <div class="bg-white black pa4">
+          <h6 class="mb1">
+            {{ docCollection.name }}
+          </h6>
+            <h3 class="f3 mt0">
+              {{ doc.title }}
+            </h3>
+            <div class="lh-copy">
+              {{ doc.content | markdownify }}
+              <a href="/#{{ doc.slug }}" class="bg-dark-primary-color white pv2 ph3 br2 dim link ba bg dib">
+                jump to this section
+              </a>
+            </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>

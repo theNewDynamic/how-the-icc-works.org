@@ -1,6 +1,6 @@
 ---
 title:
 published: true
-articles:
+cases:
 sort_order: 01
 ---

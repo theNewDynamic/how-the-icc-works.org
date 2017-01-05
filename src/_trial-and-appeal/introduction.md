@@ -1,7 +1,7 @@
 ---
 title: Trial
 published: true
-articles:
+cases:
 sort_order: 1
 permalink: /trial-and-appeal/
 ---

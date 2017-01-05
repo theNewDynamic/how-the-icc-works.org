@@ -1,6 +1,60 @@
-{% comment %}<!--
-<script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
--->{% endcomment %}
-<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.5'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="/assets/js/shortcuts/sticky.min.js"></script>
+<script src="/assets/js/shortcuts/inview.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/force-js/0.1.1/force.min.js"></script>
+<script type="text/javascript">
+force.bindHashes();
+jQuery(document).ready(function(e) {
+  var $stickymenu = $('.waypoint')
+
+  var sticky = new Waypoint.Sticky({
+    element: $stickymenu,
+    stuckClass: 'fixed-l w-100-l top-0'
+  });
+
+
+
+  {% assign sections = site.collections | where: 'primary_section', true  %}
+  {% for section in sections  %}
+
+  var inview = new Waypoint.Inview({
+    element: $('#{{ section.label }}')[0],
+    enter: function(direction) {
+      console.log('Enter triggered with direction ' + direction)
+      $('#menu .{{ section.label }} a').addClass('white')
+    },
+    exited: function(direction) {
+      console.log('Exit triggered with direction ' + direction)
+      $('#menu .{{ section.label }} a').removeClass('white').addClass('white-40')
+    }
+  })
+
+  {% endfor %}
+
+// $(document).ready(function(){
+//
+//     //set a waypoint for all the page parts on the page
+//     var ppWaypoint = $('.waypointItem').waypoint(function(direction) {
+//         //check the direction
+//         if(direction == 'down') {
+//             //add the class to start the animation
+//             $('.waypointIteminterior').addClass('');
+//             //then destroy this waypoint, we don't need it anymore
+//             this.destroy();
+//         }
+//     }, {
+//         //Set the offset
+//         offset: '10%'
+//     });
+
+
+
+
+
+});
+
+</script>
+<style media="screen">
+  .top-2 {top:    4rem;}
+</style>
