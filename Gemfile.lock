@@ -9,7 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.1)
-    ffi (1.9.14)
+    ffi (1.9.17)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     jekyll (3.3.1)
@@ -23,9 +23,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-admin (0.1.1)
+    jekyll-admin (0.2.0)
       addressable (~> 2.4)
-      jekyll (~> 3.1)
+      jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
     jekyll-livereload (0.2.2)
@@ -35,11 +35,11 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.1.0)
       jekyll (~> 3.3)
-    jekyll-sitemap (0.12.0)
+    jekyll-sitemap (1.0.0)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    kramdown (1.13.1)
+    kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -48,7 +48,7 @@ GEM
     multi_json (1.12.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.4)
+    public_suffix (2.0.5)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -59,7 +59,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.22)
+    sass (3.4.23)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -84,4 +84,4 @@ DEPENDENCIES
   jekyll-sitemap
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
