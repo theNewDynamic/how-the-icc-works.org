@@ -33,9 +33,9 @@ gems:
   - jekyll-sitemap
 #source: src
 destination: public
-plugins_dir:  /_app/_plugins
-layouts_dir:  /_app/_layouts
-includes_dir: /_app/_includes
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
 
 
 # CONTENT
