@@ -1,0 +1,30 @@
+---
+layout: default
+schema: 'Article'
+---
+{% include global/hero.html %}
+  <main id="content" role="main">
+
+    <section id="{{ section_name }}" class="min-vh-100 measure m-auto center">
+      <div class="pa3 pa4-ns measure" data="section">
+
+        <h2 class="f2 ma0 pv3 w-100">
+          <a href="{{ page.url }}" class="link black dim">
+            {{ page.title }}
+          </a>
+        </h2>
+
+        <div class="w-50-l" data="section-introduction">
+
+          {{ content }}
+        </div>
+
+
+
+
+
+      </div> <!-- //END section -->
+
+
+    </section>
+</main>

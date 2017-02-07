@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: empty
 sitemap: false
 ---
 <style>
@@ -12,23 +12,33 @@ sitemap: false
       }
     </style>
 
-    <h2>Log in to the CMS</h2>
-
-
-<form accept-charset="UTF-8" action="https://app.cloudcannon.com/client_editor/29853" method="post">
-    <input name="utf8" type="hidden" value="&#x2713;" />
-    <input name="authenticity_token" type="hidden" value="qppMeJCkjBOWGXNivvRLgQOBUURsEJYJJq/MkTHhi9M=" />
 
 
 
-     <div class="incorrect-login-message">
-       Incorrect password.
-     </div>
 
-     <label for="password">Password</label>
-     <input id="password" type="password" name="password" autofocus />
+   <main class="measure-wide black-80">
+     <h2>Log in to the CMS</h2>
+     <form class="" accept-charset="UTF-8" action="https://app.cloudcannon.com/client_editor/29853" method="post">
+       <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+         <input name="utf8" type="hidden" value="&#x2713;" />
+         <input name="authenticity_token" type="hidden" value="qppMeJCkjBOWGXNivvRLgQOBUURsEJYJJq/MkTHhi9M=" />
+              <input type="hidden" name="username" value="user" />
 
-     <input type="hidden" name="username" value="user" />
+         <div class="mv3">
+           <label class="db fw6 lh-copy f6" for="password">Password</label>
+           <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password">
+           <div class="incorrect-login-message">
+             Incorrect password.
+           </div>
 
-     <input type="submit" value="Log in" />
-   </form>
+         </div>
+
+       </fieldset>
+
+       <div class="lh-copy mt3">
+
+         <input class="b ph3 pv2 input-reset ba b--black bg-black white grow pointer f6 dib" type="submit" value="Log in" />
+
+       </div>
+     </form>
+   </main>
