@@ -31,7 +31,7 @@ incremental: false
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-source: src
+#source: src
 destination: public
 plugins_dir:  /_app/_plugins
 layouts_dir:  /_app/_layouts
