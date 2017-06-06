@@ -16,4 +16,4 @@ In an investigation, the OTP gathers as much information as possible to uncover 
 * Consultation with relevant experts and specialists;
 * Analysis of financial transactions.
 
-The OTP is legally required to take whatever steps are necessary to gather all evidence which is relevant to an alleged crime, including incriminating and exonerating evidence. Before trial starts, the Prosecutor must disclose a great deal of evidence to the Defence. This includes all the evidence the Prosecutor intends to rely upon at trial, and any evidence which tends to show the innocence of the accused or which affects the credibility of prosecution evidence.
+The OTP is legally required to take whatever steps are necessary to gather all evidence which is relevant to an alleged crime, including incriminating and exonerating evidence. Before trial starts, the Prosecutor must disclose a great deal of evidence to the Defense. This includes all the evidence the Prosecutor intends to rely upon at trial, and any evidence which tends to show the innocence of the accused or which affects the credibility of prosecution evidence.
