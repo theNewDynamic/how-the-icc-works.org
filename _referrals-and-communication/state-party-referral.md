@@ -13,4 +13,4 @@ A State Party referral is when any country that has signed and ratified the ICC 
 * on the territory of the State Party that makes the referral or on the territory of another State Party; or
 * by a national from the referring State Party or another State Party.
 
-Most cases at the ICC have arisen where a State Party has referred to the ICC atrocities that have been committed on its own territory. This is sometimes called a "self-referral".
+Most cases at the ICC have arisen where a State Party has referred to the ICC atrocities that have been committed on its own territory. This is sometimes called a "self-referral". Self-referrals include the investigations concerning the Democratic Republic of the Congo, Uganda, the Central African Republic, Mali and Gabon.
