@@ -6,7 +6,7 @@ sort_order: 2
 ---
 
 
-Carrying out an arrest warrant depends on the cooperation and assistance of countries, specifically of the country where the fugitive is located. The ICC has no police force of its own.
+Carrying out an arrest warrant depends on the cooperation of the country where the fugitive is located, and of its police force. The ICC has no police force of its own.
 
 The case of Sudanese President Omar al-Bashir illustrates the problem. Two arrest warrants, for crimes against humanity, war crimes, and genocide, have been issued by the ICC. But President al-Bashir is still at large. While he has reduced the number of countries he has travelled to, he has nevertheless continued to travel to many countries, including ICC States Parties that have not arrested him. He remains at large, and his trial will not occur until Sudan or another country is willing to arrest and transfer him to the ICC.
 
