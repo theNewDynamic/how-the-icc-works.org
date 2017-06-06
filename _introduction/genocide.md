@@ -6,4 +6,4 @@ sort_order: 4
 ---
 
 
-Genocide is criminal acts committed with the intent to destroy in whole or in part a national, ethnic, racial, or religious group, and such acts include killing or imposing measures to prevent births, for instance. Unlike CAH or War Crimes, Genocide does not require a particular context to be happening simultaneously. However, like CAH, Genocide can happen during war or peace.
+Genocide is an act committed with the intent to destroy in whole or in part a national, ethnic, racial, or religious group. It can include killing or causing serious bodily or mental harm to members of the group. It can also include deliberately inflicting on the group conditions of life calculated to bring about its physical destruction, or imposing measures to prevent births. Genocide can happen during war or peace.&nbsp;
