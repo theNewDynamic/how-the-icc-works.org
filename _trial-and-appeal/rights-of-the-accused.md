@@ -6,16 +6,16 @@ sort_order: 2
 ---
 
 
-The rights of the Accused are a fundamental pillar of the ICC as with any judicial institution. These rights include:
+The rights of the Accused are a fundamental pillar of the ICC. An accused person has the right:
 
-* Right to remain silent and not to be compelled to testify or confess guilt;
-* Right to be present during trial;
-* Presumed innocent until proven guilty beyond reasonable doubt;
-* Right to have adequate time and facilities for the preparation of the defense;
-* Right to be fully informed of the charges against him or her;
-* Right to have a lawyer appointed, free of charge if necessary;
-* Right to a speedy trial;
-* Right to a public hearing;
-* Right to be tried in one’s language and have a free interpreter;
-* Right to a public trial;
-* Right to examine the witnesses against him or her and to obtain the attendance and examination of witnesses on his or her behalf.
+* to remain silent and not to be compelled to testify or confess guilt;
+* to be present during trial;
+* to be presumed innocent until proven guilty beyond reasonable doubt;
+* to have adequate time and facilities for the preparation of the defense;
+* to be fully informed of the charges against him or her;
+* to have a lawyer appointed, free of charge if necessary;
+* to a speedy trial;
+* to a public hearing;
+* to be tried in his or her language and to have a free interpreter;
+* to a public trial;
+* to examine the witnesses against him or her and to obtain the attendance and examination of witnesses on his or her behalf.
