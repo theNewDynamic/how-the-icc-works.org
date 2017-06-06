@@ -9,9 +9,9 @@ permalink: /confirmation-of-charges/
 
 After an individual’s initial appearance, the Pre-Trial Chamber ("PTC") must hold a hearing within a reasonable amount of time to confirm or dismiss the charges presented by the Prosecutor. The PTC can either:
 
-**1) Confirm the charges and send the case to the Trial Chambers for trial (at this point the person becomes the “Accused”); or**
+**1) Confirm the charges and send the case to the Trial Chambers for trial (at this point the individual becomes the “Accused”); or**
 
-**2) Dismiss the charges and set the person free; or**
+**2) Dismiss the charges and set the individual free; or**
 
 **3) Pause the hearing to request the Prosecutor to produce additional evidence or change the charges with the evidence presented.**
 
