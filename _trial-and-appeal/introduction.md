@@ -7,7 +7,7 @@ permalink: /trial-and-appeal/
 ---
 
 
-The Trial Chamber (TC) is required to conduct a fair and expeditious trial that protects the rights of the Accused, Victims, witnesses, and others involved. There is a presumption that trial sessions will be open to the public. The trial can take place in “closed session” where this is necessary to protect witnesses and the confidentiality of sensitive matters.
+The Trial Chamber (TC) is required to conduct a fair and expeditious trial that protects the rights of the Accused, Victims, witnesses, and others involved. There is a presumption that trial sessions will be open to the public. The trial can take place in “closed session” where this is necessary to protect witnesses or the confidentiality of sensitive matters.
 
 The first step of a trial is to allow the Office of the Prosecutor ("OTP") to present its evidence in order to prove the Accused’s guilt beyond a reasonable doubt. Defense lawyers are allowed to test the strength of the OTP evidence presented.&nbsp;
 
