@@ -4,4 +4,6 @@ published: true
 cases:
 sort_order: 3
 ---
-Crimes Against Humanity (CAH) are criminal acts committed within the context of a “widespread and systematic attack directed against a civilian population”. A CAH may be many different things  such as murder, rape, persecution, extermination, and torture. CAH can occur during an armed conflict or peace.
+
+
+A Crimes Against Humanity (CAH) is a criminal act committed within the context of a “widespread and systematic attack directed against a civilian population”. A CAH includes acts such as murder, rape, persecution, extermination, and torture. A CAH can occur during war or peace.
