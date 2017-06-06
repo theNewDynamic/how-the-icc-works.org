@@ -11,7 +11,7 @@ The ICC Office of the Prosecutor (OTP) may turn a preliminary examination into a
 In an investigation, the OTP gathers as much information as possible to uncover the truth about the alleged crime, as well as to determine who is most responsible. An investigation may include:
 
 * Inspection where the alleged crime occurred;
-* Collection of evidence like cellphone data, emails, radio intercepts, minutes of meetings, military and police communications, speeches and forensic material;
+* Collection of evidence like cellphone data, emails, radio intercepts, videos, photographs, minutes of meetings, military and police communications, speeches and forensic material such as exhumation reports;
 * Interviewing witnesses and victims;
 * Consultation with relevant experts and specialists;
 * Analysis of financial transactions.
