@@ -6,4 +6,4 @@ sort_order: 4
 ---
 
 
-The alleged crimes <u>must</u> satisfy the Rome Statute definitions of either war crimes, crimes against humanity, or genocide, known collectively as “atrocity crimes”. If the alleged crimes cannot be defined as an atrocity crime, the case cannot move forward at the ICC.
+An alleged crime&nbsp;<u>must</u>&nbsp;be either a war crime, a crime against humanity, or genocide, as these crimes are defined in the Rome Statute. If the alleged crime does not fall within one of these definitions, the case cannot move forward at the ICC.
