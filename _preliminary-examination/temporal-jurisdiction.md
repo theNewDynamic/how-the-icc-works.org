@@ -2,7 +2,7 @@
 title: Temporal Jurisdiction
 published: true
 cases:
-sort_order: 3
+sort_order: 2
 ---
 
 
