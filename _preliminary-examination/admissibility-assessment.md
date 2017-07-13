@@ -2,7 +2,7 @@
 title: 'Preliminary Examinations, Admissibility Assessment'
 published: false
 cases:
-sort_order: 3
+sort_order: 7
 ---
 
 
