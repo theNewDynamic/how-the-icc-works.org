@@ -1,5 +1,5 @@
 ---
-title: 'Admissibility Assessment: Complementarity'
+title: Complementarity
 published: true
 cases:
 sort_order: 8
