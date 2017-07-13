@@ -1,5 +1,5 @@
 ---
-title: 2012 Mali Self Referral to the ICC
+title: 2012 Mali Self Referral
 published: true
 ---
 
