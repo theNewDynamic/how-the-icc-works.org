@@ -1,5 +1,5 @@
 ---
-title: 'Admissibility Assessment: Gravity'
+title: Gravity
 published: true
 cases:
 sort_order: 9
