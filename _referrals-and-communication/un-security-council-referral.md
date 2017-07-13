@@ -14,6 +14,6 @@ In March 2005, the UNSC referred the situation in Darfur, Sudan, to the ICC.&nbs
 
 In February 2011, the UNSC referred the situation in Libya to the ICC.
 
-Where a permanent member of the UNSC vetoes a resolution to refer a situation to the ICC, the ICC cannot investigate. The permanent members of the UNSC are China, France, Russia, the USA, and the UK. In May 2014, Russia and China vetoed the referral of Syria to the ICC.
+If a permanent member of the UNSC vetoes a resolution to refer a situation to the ICC, the Court cannot gain jurisdiction. The permanent members of the UNSC are China, France, Russia, United States of America, and United Kingdom. In May 2014, Russia and China vetoed the referral of Syria to the ICC.
 
 &nbsp;
