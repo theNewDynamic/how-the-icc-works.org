@@ -1,5 +1,5 @@
 ---
-title: Interests of Justice
+title: Interests of Justice Assessment
 published: true
 cases:
 sort_order: 10
