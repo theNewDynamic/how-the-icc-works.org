@@ -2,7 +2,7 @@
 title: 'Admissibility Assessment: Gravity'
 published: true
 cases:
-sort_order: 7
+sort_order: 9
 ---
 
 
