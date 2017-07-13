@@ -1,5 +1,5 @@
 ---
-title: 'Preliminary Examinations, Admissibility Assessment'
+title: Admissibility Assessment
 published: false
 cases:
 sort_order: 7
