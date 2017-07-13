@@ -2,7 +2,7 @@
 title: Interests of Justice Assessment
 published: true
 cases:
-sort_order: 8
+sort_order: 1
 ---
 
 
