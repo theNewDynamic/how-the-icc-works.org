@@ -2,7 +2,7 @@
 title: 'Admissibility Assessment: Complementarity'
 published: true
 cases:
-sort_order: 6
+sort_order: 8
 ---
 
 
