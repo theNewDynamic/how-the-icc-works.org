@@ -2,7 +2,7 @@
 title: Personal Jurisdiction
 published: true
 cases:
-sort_order: 5
+sort_order: 4
 ---
 
 
