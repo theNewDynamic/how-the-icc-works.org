@@ -1,44 +1,33 @@
-# jekyll-seo-tag
-title: "How the ICC Works"
-description: "The ICC is a court of last resort. It has to adhere to a great number of rules to determine where and when it can operate."
-url: "https://how-the-icc-works.aba-icc.org" # the base hostname & protocol for your site
+title: How the ICC Works
+description: "The ICC is a court of last resort. See how certain cases get to the Court and how the legal process unfolds. "
+url: 'https://how-the-icc-works.aba-icc.org'
 author: []
 twitter:
   username: budparr
 facebook:
-  app_id:
-  publisher:
-  admins:
+  app_id: null
+  publisher: null
+  admins: null
 logo: /assets/images/jekyll-white.svg
-google_site_verification:
+google_site_verification: null
 github:
   username: budparr
 owner: The New Dynamic
-# manifest
 short_name: The Shortname
 display: fullscreen
-
-# development meta data
-image_url: http://thenewdynamic.imgix.net
+image_url: 'http://thenewdynamic.imgix.net'
 google_analytics_id: UA-51919693-11
-incremental: true
+incremental: false
 port: 3575
-
-# Settings
 production: true
 full_rebuild: true
-incremental: false
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-#source: src
 destination: public
-plugins_dir:  ./_app/_plugins
-layouts_dir:  ./_app/_layouts
+plugins_dir: ./_app/_plugins
+layouts_dir: ./_app/_layouts
 includes_dir: ./_app/_includes
-
-
-# CONTENT
 exclude:
   - readme.md
   - todo.md
@@ -48,19 +37,16 @@ exclude:
   - CNAME
   - node_modules
   - package.json
-
 processes:
   - ''
   - jurisdictional-triggers
-  - referrals-and-communication
+  - start-of-jurisdiction
   - preliminary-examination
   - investigation
   - arrest-warrant-and-summons
   - confirmation-of-charges
   - trial-and-appeal
   - sentencing-and-reparations
-
-
 collections:
   cases:
     output: true
@@ -68,55 +54,54 @@ collections:
   introduction:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Introduction'
+    name: Introduction
     primary_section: true
-    order: 00
-  referrals-and-communication:
+    order: 0
+  start-of-jurisdiction:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Referrals and Communications'
+    name: Start of Jurisdiction
     primary_section: true
-    order: 01
-    category: 'Referral to the ICC'
+    order: 1
+    category: Referral to the ICC
   preliminary-examination:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Preliminary Examination'
+    name: Preliminary Examination
     primary_section: true
-    order: 02
-    category: 'Action by the ICC'
+    order: 2
+    category: Action by the ICC
   investigation:
     output: false
     permalink: '/:collection/#:path/'
-    name: 'Investigation'
+    name: Investigation
     primary_section: true
-    order: 03
+    order: 3
   arrest-warrant-and-summons:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Arrest Warrant & Summons'
+    name: Arrest Warrant & Summons
     primary_section: true
-    color:
-    order: 04
+    color: null
+    order: 4
   confirmation-of-charges:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Confirmation of Charges'
+    name: Confirmation of Charges
     primary_section: true
-    order: 05
+    order: 5
   trial-and-appeal:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Trial & Appeal'
+    name: Trial & Appeal
     primary_section: true
-    order: 06
+    order: 6
   sentencing-and-reparations:
     output: false
     permalink: '/:collection/:path/'
-    name: 'Sentencing & Reparations'
+    name: Sentencing & Reparations
     primary_section: true
-    order: 07
-
+    order: 7
 defaults:
   - scope:
       path: ''
@@ -124,46 +109,46 @@ defaults:
       layout: page-single
   - scope:
       path: ''
-      type: 'cases'
+      type: cases
     values:
-      layout: 'cases'
+      layout: cases
   - scope:
       path: ''
-      type: 'referrals-and-communication'
-    values:
-      layout: page-single
-  - scope:
-      path: ''
-      type: 'preliminary-examination'
+      type: referrals-and-communication
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'investigation'
+      type: preliminary-examination
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'arrest-warrant-and-summons'
+      type: investigation
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'confirmation-of-charges'
+      type: arrest-warrant-and-summons
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'trial-and-appeal'
+      type: confirmation-of-charges
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'sentencing-and-reparations'
+      type: trial-and-appeal
     values:
       layout: page-single
   - scope:
       path: ''
-      type: 'atrocity-crimes'
+      type: sentencing-and-reparations
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: atrocity-crimes
     values:
       layout: page-single
