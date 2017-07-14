@@ -63,7 +63,7 @@ collections:
     name: Start of Jurisdiction
     primary_section: true
     order: 1
-    category: Referral to the ICC
+    category: Start of Jurisdiction
   preliminary-examination:
     output: false
     permalink: '/:collection/:path/'
