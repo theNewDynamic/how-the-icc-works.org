@@ -12,7 +12,7 @@ schema: 'Article'
 
   {% for section in sections %}
     {% assign section_name = section.label %}
-    {% assign section_documents= site.[section_name] %}
+    {% assign section_documents= site[section_name] %}
     {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
     {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
     {% unless forloop.index0 == 0 %}

@@ -9,7 +9,7 @@ schema: 'Article'
 {% assign sections = sections | sort: 'order' %}
 
     {% assign section_name = page.label %}
-    {% assign section_documents= site.[section_name] %}
+    {% assign section_documents= site.section_name %}
     {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
     {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" '  %}
     <!-- | sort: 'sort_order' -->
