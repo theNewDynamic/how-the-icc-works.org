@@ -16,7 +16,7 @@ schema: 'Article'
     {% assign section_introduction = section_documents | where: 'slug', 'introduction' %}
     {% assign section_body = section_documents | where_exp: 'item', ' item.slug != "introduction" ' | sort: 'sort_order' %}
     {% unless forloop.index0 == 0 %}
-      {% assign section_body_classes = 'bg-near-white mid-gray pv3 ph3 pv3-ns ph4-ns ba b--black-10 mb2' %}
+      {% assign section_body_classes = 'bg-near-white mid-gray nested-links pv3 ph3 pv3-ns ph4-ns ba b--black-10 mb2' %}
       {% assign section_heading_classes = 'ttu silver mb0' %}
       {% else  %}
         {% assign section_heading_classes = 'dn' %}
@@ -42,7 +42,7 @@ schema: 'Article'
             <h3 class="f3">
               {{ doc.title }}
             </h3>
-            <div class="pr5-ns pb4 lh-copy">
+            <div class="pr5-ns pb4 nested-links lh-copy">
               {{ doc.content }}
             </div>
           {% endfor %}
