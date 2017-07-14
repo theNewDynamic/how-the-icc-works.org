@@ -70,8 +70,8 @@ schema: 'Article'
                   {% for item in doc.cases %}
                     {% assign data = site.cases | where: 'slug', item %}
                     {% for object in data  %}
-                      <a href="{{ object.url }}" class="{{ section_name }} pv2 ph3 br2 dim link ba bg dib">
-                        {{ object.title }}
+                      <a href="{{ object.url }}" class="{{ section_name }} pv2 ph3 br2 dim link ba bg dib white">
+                        <span class="white">{{ object.title }}</span>
                       </a>
                     {% endfor %}
                   {% endfor %}
