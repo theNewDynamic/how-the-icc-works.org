@@ -6,7 +6,7 @@ sort_order: 2
 ---
 
 
-The rights of the Accused are a fundamental pillar of the ICC. An accused person has the right:
+The [rights](https://www.icc-cpi.int/about/defence) of the Accused are a fundamental pillar of the ICC. An accused person has the right:
 
 * to remain silent and not to be compelled to testify or confess guilt;
 * to be present during trial;
