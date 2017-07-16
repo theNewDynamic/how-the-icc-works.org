@@ -6,7 +6,7 @@ sort_order: 1
 ---
 
 
-The ICC Office of the Prosecutor (OTP) may turn a preliminary examination into a formal investigation called a situation (such as the situation in [Libya](){: .cc-active}) if the four phases of a preliminary examination are satisfied.
+The ICC [Office of the Prosecutor](https://www.icc-cpi.int/about/otp) (OTP) may turn a preliminary examination into a formal investigation called a situation (such as the situation in [Libya](){: .cc-active}) if the four phases of a preliminary examination are satisfied.
 
 In an investigation, the OTP gathers as much information as possible to uncover the truth about the alleged crime, as well as to determine who is most responsible. An investigation may include:
 
