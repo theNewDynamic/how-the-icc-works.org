@@ -8,7 +8,7 @@ sort_order: 2
 ---
 
 
-A State Party referral is when any country that has ratified the Rome Statute (making them a State Party) refers alleged atrocity crimes to the ICC Prosecutor. The atrocities must have been committed:
+A [State Party](https://www.aba-icc.org/about-the-icc/states-parties-to-the-icc/) referral is when any country that has ratified the Rome Statute (making them a State Party) refers alleged atrocity crimes to the ICC Prosecutor. The atrocities must have been committed:
 
 * on the territory of the State Party that makes the referral or on the territory of another State Party; or
 * by a national from the referring State Party or another State Party.
