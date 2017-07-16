@@ -13,4 +13,4 @@ The ICC Prosecutor may start a preliminary investigation&nbsp;*proprio motu*&nbs
 * on the territory, or by a national, of any State Party; or
 * on the territory, or by a national, of a non-State Party that has consented to the jurisdiction of the ICC.
 
-The ICC Prosecutor must receive approval from judges in order to open a formal investigation. &nbsp;&nbsp;
+The ICC Prosecutor must receive approval from judges to open a formal investigation. &nbsp;&nbsp;
