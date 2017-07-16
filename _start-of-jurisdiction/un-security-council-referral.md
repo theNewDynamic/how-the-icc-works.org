@@ -8,7 +8,7 @@ sort_order: 3
 ---
 
 
-The UN Security Council (UNSC) may refer alleged atrocity crimes committed in any country to the ICC Prosecutor by passing a resolution authorized by the UN Charter.
+The [UN Security Council](http://www.un.org/en/sc/) (UNSC) may refer alleged atrocity crimes committed in any country to the ICC Prosecutor by passing a resolution authorized by the [UN Charter](http://www.un.org/en/charter-united-nations/).
 
 > In March 2005, the UNSC referred the situation in Darfur, Sudan, to the ICC.&nbsp;
 >
