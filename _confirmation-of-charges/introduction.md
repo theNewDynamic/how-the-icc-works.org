@@ -7,7 +7,7 @@ permalink: /confirmation-of-charges/
 ---
 
 
-After an individual’s initial appearance, the Pre-Trial Chamber ("PTC") must hold a hearing within a reasonable amount of time to confirm or dismiss the charges presented by the Prosecutor. The PTC can either:
+After an individual’s initial appearance, the Pre-Trial Chamber (PTC) must hold a hearing within a reasonable amount of time to confirm or dismiss the charges presented by the Prosecutor. The PTC can either:
 
 * Confirm the charges and send the case to the Trial Chambers for trial (at this point the individual becomes the “Accused”); or
 * Dismiss the charges and set the individual free; or
