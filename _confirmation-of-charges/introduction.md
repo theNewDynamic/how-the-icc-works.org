@@ -1,5 +1,5 @@
 ---
-title: Confirmation of Charges
+title: Confirm or Dismiss Charges
 published: true
 cases:
 sort_order: 1
@@ -13,4 +13,4 @@ After an individual’s initial appearance, the Pre-Trial Chamber (PTC) must hol
 * Dismiss the charges and set the individual free; or
 * Pause the hearing to request the Prosecutor to produce additional evidence or change the charges with the evidence presented.
 
-If charges are dismissed, the ICC Prosecutor can provide additional evidence at a later time in order to convince the PTC to confirm the original charges. &nbsp;Alternatively, the ICC Prosecutor can start the whole process over again with different charges.
+If charges are dismissed, the ICC Prosecutor can provide additional evidence at a later time in order to convince the PTC to confirm the original charges.  Alternatively, the ICC Prosecutor can start the whole process over again with different charges.
