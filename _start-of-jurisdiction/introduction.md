@@ -7,4 +7,8 @@ permalink: /start-of-jurisdiction/
 ---
 
 
-The International Criminal Court (ICC) can *only&nbsp;*exercise its jurisdiction in one of three ways: where a State Party refers a case, where the UN Security Council refers a case, or where the ICC Prosecutor initiates a case.
+Whether *after* or *during* the commission of alleged atrocity crimes, the ICC can *only&nbsp;*exercise its jurisdiction over such crimes in one of three ways:
+
+* Where a State Party refers the crimes to the Court,
+* Where the UN Security Council refers the crimes to the Court, or
+* Where the ICC Prosecutor initiates a preliminary examination into the crimes.
