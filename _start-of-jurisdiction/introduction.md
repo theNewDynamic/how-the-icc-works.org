@@ -11,4 +11,4 @@ Whether *after* or *during* the commission of alleged atrocity crimes, the ICC c
 
 * Where a State Party refers the crimes to the Court (State Party Referral),
 * Where the UN Security Council refers the crimes to the Court (UN Security Council Referral), or
-* Where the ICC Prosecutor initiates a preliminary examination into the crimes (*Propio Motu* Investigations).
+* Where the ICC Prosecutor initiates a preliminary examination into the crimes (*Propio Motu* Investigation).
