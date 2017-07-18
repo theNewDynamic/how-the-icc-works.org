@@ -14,6 +14,6 @@ The ICC cannot act unilaterally because:
 As a result, the ICC and its organs (e.g. the OTP) depends on the “cooperation and assistance” of countries in order to facilitate investigations and prosecutions. Cooperation and assistance may include:
 
 * Allowing access to documents and other evidence;
-* Tasking domestic personnel to assist OTP investigators
+* Tasking domestic personnel to assist OTP personnel
 * Helping locate witnesses and victims; and
 * Assisting in the identification of crime sites.
