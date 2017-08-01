@@ -60,10 +60,10 @@ collections:
   start-of-jurisdiction:
     output: false
     permalink: '/:collection/:path/'
-    name: Start of Jurisdiction
+    name:
     primary_section: true
     order: 1
-    category: Start of Jurisdiction
+    category: Pathways to Jurisdiction
   preliminary-examination:
     output: false
     permalink: '/:collection/:path/'
