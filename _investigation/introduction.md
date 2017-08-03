@@ -1,5 +1,5 @@
 ---
-title: Investigation Process
+title: Investigative Process
 published: true
 cases:
 sort_order: 1
