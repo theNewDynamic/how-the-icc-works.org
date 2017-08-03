@@ -63,7 +63,7 @@ collections:
     name:
     primary_section: true
     order: 1
-    category: Pathways to Jurisdiction
+    category: Start of Jurisdiction
   preliminary-examination:
     output: false
     permalink: '/:collection/:path/'
